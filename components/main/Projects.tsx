@@ -8,7 +8,7 @@ const Projects = () => {
       className="flex flex-col items-center justify-center"
       id="projects"
     >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-green-800 to-green-500 pb-20">
+      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-green-200 to-green-100 pb-20">
       Enviro-Synergy Conference Series
       </h1>
       <div className="h-full w-full grid grid-cols-3 gap-10 px-10">

@@ -10,7 +10,7 @@ const Hero = () => {
         loop
         className="absolute  h-[800px] w-full left-0 z-[1] object-cover "
       >
-        <source src="/GreenTech.webm" type="video/webm" />
+        <source src="/Green_earth.mp4" type="video/mp4" />
       </video>
       <HeroContent />
     </div>

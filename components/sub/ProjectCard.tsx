@@ -10,7 +10,7 @@ interface Props {
 const ProjectCard = ({ src, title, description }: Props) => {
 
   return (
-    <div className="w-[400px] h-[800px] relative overflow-hidden rounded-lg shadow-lg border border-[#258750]">
+    <div className="w-[400px] h-[800px] relative overflow-hidden rounded-lg shadow-lg border border-[#4d6134]">
       <Image
         src={src}
         alt={title}
@@ -20,8 +20,8 @@ const ProjectCard = ({ src, title, description }: Props) => {
       />
 
       <div className="relative p-4">
-        <h1 className="text-2xl font-semibold text-green-700">{title}</h1>
-        <p className="mt-2 text-gray-700">{description}</p>
+        <h1 className="text-2xl font-semibold text-green-100">{title}</h1>
+        <p className="mt-2 text-gray-100">{description}</p>
       </div>
 
       <button className="absolute bottom-4 right-4 bg-green-700 text-white px-4 py-2 rounded">

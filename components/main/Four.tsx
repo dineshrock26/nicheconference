@@ -3,7 +3,7 @@ import React from 'react'
 
 const Four = () => {
   return (
-    <div className='w-full h-full border border-green-700 p-20'>
+    <div className='w-full h-full border border-green-700 p-20 text-white'>
       <div className='w-full h-full flex flex-col items-center justify-center py-10'>
         <Image className=' rounded-full shadow-lg' src="/ConferenceLogo3.jpg" alt="logo" width={200} height={200} />
         <h3 className='text-2xl font-bold py-10'>Waste Management</h3>
